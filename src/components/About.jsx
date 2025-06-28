@@ -17,10 +17,10 @@ const FeatureListItem = ({ icon, title, children }) => (
 
 const About = () => {
   const teamMembers = [
-    { name: 'Nama Anggota 1', role: 'Project Manager' },
-    { name: 'Nama Anggota 2', role: 'Frontend Developer' },
-    { name: 'Nama Anggota 3', role: 'Backend Developer' },
-    { name: 'Serevina Sherly Maulida', role: 'Algorithm & Research' },
+    { name: 'Nabila Lailatanzila', role: 'Project Manager' },
+    { name: 'Serevina Sherly Maulida', role: 'Frontend Developer' },
+    { name: 'Muhammad Rizki Al-Fathir', role: 'Algorithm & Research' },
+    { name: 'Nirwan Rasyid Ridlo', role: 'Backend Developer' },
   ];
 
   return (
