@@ -175,7 +175,7 @@ const Decode = () => {
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-8">
-        <FormSection title="Langkah 1: Upload File" subtitle="Pilih gambar stego dan file kunci jika ada." icon={HiArrowUpOnSquareStack}>
+        <FormSection title="Langkah 1: Upload File" subtitle="Pilih gambar stego dan file kunci" icon={HiArrowUpOnSquareStack}>
             <div className="bg-slate-900/70 p-4 rounded-lg">
                 <label className="block text-sm font-semibold text-slate-300 mb-2">Gambar Stego (.jpg)</label>
                 {imagePreview ? (
@@ -193,7 +193,7 @@ const Decode = () => {
                 )}
             </div>
             <div className="bg-slate-900/70 p-4 rounded-lg">
-                <label className="block text-sm font-semibold text-slate-300 mb-2">File Kunci (.bin) - Opsional</label>
+                <label className="block text-sm font-semibold text-slate-300 mb-2">File Path Kunci (.bin)</label>
                 <input id="key-file-input" type="file" className="hidden" accept=".bin" onChange={(e) => handleKeyFileChange(e.target.files[0])} />
                 <label htmlFor="key-file-input" className="flex items-center justify-center w-full py-4 border-2 border-slate-600 border-dashed rounded-lg cursor-pointer hover:bg-slate-800/70 transition-colors">
                      <span className="text-sm text-slate-400">{keyFilename || "Klik atau seret file kunci"}</span>
