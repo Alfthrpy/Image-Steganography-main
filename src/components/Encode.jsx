@@ -213,7 +213,7 @@ const Encode = () => {
               <textarea id="secret-text" rows="4" value={text} onChange={(e) => setText(e.target.value)} placeholder="Tuliskan pesan Anda di sini..." className="w-full bg-slate-900 text-slate-100 p-3 rounded-md ring-1 ring-slate-600 focus:ring-cyan-500 focus:outline-none transition placeholder-slate-500"/>
             </div>
              <div>
-              <label htmlFor="secret-key" className="block text-sm font-semibold text-slate-300 mb-2">Kunci Rahasia (Opsional)</label>
+              <label htmlFor="secret-key" className="block text-sm font-semibold text-slate-300 mb-2">Kunci Rahasia</label>
               <div className="relative">
                 <input id="secret-key" type={showKey ? 'text' : 'password'} value={key} onChange={(e) => setKey(e.target.value)} className="w-full bg-slate-900 text-slate-100 p-3 rounded-md ring-1 ring-slate-600 focus:ring-cyan-500 focus:outline-none transition placeholder-slate-500" placeholder="Kunci enkripsi AES-256"/>
                 <button type="button" className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-cyan-400 transition-colors" onClick={() => setShowKey(!showKey)}>

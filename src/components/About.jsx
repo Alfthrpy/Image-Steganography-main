@@ -24,10 +24,10 @@ const FeatureListItem = ({ icon, title, children }) => (
 
 const About = () => {
   const teamMembers = [
-    { name: "Nabila Lailatanzila", role: "IT Support" ,github: "https://github.com/nabilaalt" },
-    { name: "Serevina Sherly Maulida", role: "Frontend Developer", github: "https://github.com/serevinaash" },
-    { name: "Muhammad Rizki Al-Fathir", role: "Algorithm & Research" ,github: "https://github.com/alfthrpy" },
+    { name: "Muhammad Rizki Al-Fathir", role: "Algorithm & Implementation" ,github: "https://github.com/alfthrpy" },
+    { name: "Nabila Lailatanzila", role: "UI/UX" ,github: "https://github.com/nabilaalt" },
     { name: "Nirwan Rasyid Ridlo", role: "Backend Developer" ,github: "https://github.com/syidwan" },
+    { name: "Serevina Sherly Maulida", role: "Frontend Developer", github: "https://github.com/serevinaash" },
   ];
 
   return (
